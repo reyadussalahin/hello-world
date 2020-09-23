@@ -1,6 +1,9 @@
 # ignoring composer.phar
 composer.phar
 
+# ignoring composer.lock
+composer.lock
+
 # ignoring any .ini file in anywhere
 *.ini
 
