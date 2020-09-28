@@ -33,6 +33,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts" : {
-        "remove-git-dir": "rm -rf .git/"
+        "post-create-project-cmd": [
+            "php setup.php"
+        ]
     }
 }
