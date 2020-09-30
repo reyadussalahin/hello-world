@@ -34,7 +34,8 @@
     "prefer-stable": true,
     "scripts" : {
         "post-create-project-cmd": [
-            "php setup.php"
+            "php setup.php",
+            "php -r \"unlink('setup.php');\""
         ]
     }
 }

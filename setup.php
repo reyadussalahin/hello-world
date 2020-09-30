@@ -20,3 +20,6 @@ function removeDirectoryRecursively($dir) {
 
 // removing .git
 removeDirectoryRecursively(".git");
+
+// rmoving .circleci
+removeDirectoryRecursively(".circleci");
